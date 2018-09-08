@@ -245,6 +245,113 @@ var AppComponent = /** @class */ (function () {
                     'MongoDB',
                 ]
             },
+            projects: [
+                {
+                    name: 'jQueryGoals',
+                    description: 'A Django project using JQuery animations and external data visualization libraries to create a colorful progress-tracking app.',
+                    video: '../assets/videos/jQueryGoalsDemo.mp4',
+                    technologies: [
+                        {
+                            name: 'HTML5',
+                            url: '../assets/images/icons/html5.png'
+                        },
+                        {
+                            name: 'CSS3',
+                            url: '../assets/images/icons/css3.png'
+                        },
+                        {
+                            name: 'JavaScript',
+                            url: '../assets/images/icons/javascript.png'
+                        },
+                        {
+                            name: 'Python',
+                            url: '../assets/images/icons/python.png'
+                        },
+                        {
+                            name: 'Django',
+                            url: '../assets/images/icons/django.png'
+                        },
+                        {
+                            name: 'Materialize',
+                            url: '../assets/images/icons/materialize.png'
+                        },
+                        {
+                            name: 'jQuery',
+                            url: '../assets/images/icons/jquery.png'
+                        },
+                        {
+                            name: 'SQLite',
+                            url: '../assets/images/icons/sqlite.png'
+                        },
+                    ]
+                },
+                // {
+                //     name: 'Life Portfolio',
+                //     description: 'An Angular/Node project with multiple versions at the front end, from the olden days of terminal commands to the minimalism of modern-day web design.',
+                //     video: '',
+                //     technologies: [
+                //         {
+                //             name: 'HTML5',
+                //             url: '../assets/images/icons/html5.png'
+                //         },
+                //         {
+                //             name: 'CSS3',
+                //             url: '../assets/images/icons/css3.png'
+                //         },
+                //         {
+                //             name: 'JavaScript',
+                //             url: '../assets/images/icons/javascript.png'
+                //         },
+                //         {
+                //             name: 'Angular',
+                //             url: '../assets/images/icons/angular.png'
+                //         },
+                //         {
+                //             name: 'Node',
+                //             url: '../assets/images/icons/node.png'
+                //         },
+                //         {
+                //             name: 'Express',
+                //             url: '../assets/images/icons/express.png'
+                //         },
+                //     ]
+                // },
+                {
+                    name: 'CoffeeGlyph',
+                    description: 'An animated infographic of different coffee recipes, written in C# and ASP.NET Core.',
+                    video: '../assets/videos/CoffeeGlyphDemo.mp4',
+                    technologies: [
+                        {
+                            name: 'HTML5',
+                            url: '../assets/images/icons/html5.png'
+                        },
+                        {
+                            name: 'CSS3',
+                            url: '../assets/images/icons/css3.png'
+                        },
+                        {
+                            name: 'JavaScript',
+                            url: '../assets/images/icons/javascript.png'
+                        },
+                        {
+                            name: 'C#',
+                            url: '../assets/images/icons/csharp.png'
+                        },
+                        {
+                            name: 'ASP.NET Core',
+                            url: '../assets/images/icons/aspnetcore.png'
+                        },
+                        {
+                            name: 'MySQL',
+                            url: '../assets/images/icons/mysql.png'
+                        },
+                        {
+                            name: 'jQuery',
+                            url: '../assets/images/icons/jquery.png'
+                        },
+                    ]
+                },
+            ],
             interests: [
                 'Learning languages (Spanish, French, and Russian so far!)',
                 'Traveling',
@@ -347,7 +454,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "* {\n    font-family: 'open sans', sans-serif;\n}\n\np, li {\n    line-height: 1.5;\n}\n\n/* .navbar {\n    background-color: #4b4b4b;\n    width: 100%;\n    text-align: center;\n    position: sticky;\n    top: 0px;\n    z-index: 1;\n    color: #e8e8e8;\n    margin: 0px;\n    padding: 1px;\n} */\n\n.backbutton {\n    font-size: 16px;\n    background-color: #4b4b4b;\n    color: #e8e8e8;\n    border: none;\n    border-radius: 1px;\n    cursor: pointer;\n    padding: 12px 18px;\n    position: -webkit-sticky;\n    position: sticky;\n    top: 8px;\n    left: 8px;\n    float: left;\n    z-index: 2;\n    opacity: 0.9;\n}\n\n.backbutton:hover {\n    opacity: 0.7;\n}\n\n.backtext {\n    display: none;\n}\n\n.image1 {\n    background: url('shoe-hang.jpg');\n}\n\n.image2 {\n    background: url('montenegro-climb.jpg');\n    background-position: bottom right !important;\n}\n\n.image3 {\n    background: url('pamukkale-climb.jpg');\n}\n\n.image4 {\n    background: url('croatia-walls.jpg');\n}\n\n.parallaxdiv {\n    background-position: center;\n    background-color: lightgrey;\n    min-height: 480px;\n    width: 100%;\n    background-size: cover;\n    position: relative;\n}\n\n.textblock {\n    font-size: 16px;\n    width: 100%;\n    position: absolute;\n    top: 15%;\n    background-color: #4b4b4b;\n    padding: 0 24px;\n    color: #e8e8e8;\n    box-shadow: 2px 2px 8px 2px #474747;\n    opacity: 0.9;\n    box-sizing: border-box;\n}\n\n.textblock a {\n    color: #899efb;\n}\n\n.textblock a:visited {\n    color: #9672c4;\n}\n\n.contentblock {\n    padding: 12px 18px;\n    background-color: #fcfcfc;\n}\n\n.contentblock li {\n    font-size: 14px;\n}\n\n.contentblock p, .contentblock h1, .contentblock h2, .contentblock h3, .contentblockh4, .contentblock h5, .contentblock h6, .contentblock li {\n    color: #353535;\n}\n\n.jobblock {\n    width: 100%;\n    display: inline-block;\n    vertical-align: top;\n    box-sizing: border-box;\n    padding: 16px;\n}\n\n.skillblock {\n    width: 100%;\n    display: inline-block;\n    vertical-align: top;\n    box-sizing: border-box;\n    padding: 12px;\n}\n\n.schoolblock {\n    width: 100%;\n    display: inline-block;\n    vertical-align: top;\n    box-sizing: border-box;\n    padding: 12px;\n    text-align: center;\n}\n\n@media only screen and (min-width: 480px) {\n    .skillblock {width: 50%}\n    .textblock {max-width: 300px}\n    .textblockleft {left: 10%}\n    .textblockright {right: 10%}\n}\n\n@media only screen and (min-width: 768px) {\n    .backtext {display: block}\n    .backbracket {display: none}\n    .jobblock {width: 50%}\n    .skillblock {width: 25%}\n    .schoolblock {width: 50%}\n    .textblock {top: 25%}\n    .parallaxdiv {\n        background-attachment: fixed;\n        min-height: 640px;\n    }\n}\n\n@media only screen and (min-width: 1024px) {\n    .jobblock {width: 33%}\n}\n"
+module.exports = "* {\n    font-family: 'open sans', sans-serif;\n}\n\np, li {\n    line-height: 1.5;\n}\n\n/* .navbar {\n    background-color: #4b4b4b;\n    width: 100%;\n    text-align: center;\n    position: sticky;\n    top: 0px;\n    z-index: 1;\n    color: #e8e8e8;\n    margin: 0px;\n    padding: 1px;\n} */\n\n.backbutton {\n    font-size: 16px;\n    background-color: #4b4b4b;\n    color: #e8e8e8;\n    border: none;\n    border-radius: 1px;\n    cursor: pointer;\n    padding: 12px 18px;\n    position: -webkit-sticky;\n    position: sticky;\n    top: 8px;\n    left: 8px;\n    float: left;\n    z-index: 2;\n    opacity: 0.9;\n}\n\n.backbutton:hover {\n    opacity: 0.7;\n}\n\n.backtext {\n    display: none;\n}\n\n.image1 {\n    background: url('shoe-hang.jpg');\n}\n\n.image2 {\n    background: url('montenegro-climb.jpg');\n    background-position: bottom right !important;\n}\n\n.image3 {\n    background: url('pamukkale-climb.jpg');\n}\n\n.image4 {\n    background: url('croatia-walls.jpg');\n}\n\n.parallaxdiv {\n    background-position: center;\n    background-color: lightgrey;\n    min-height: 480px;\n    width: 100%;\n    background-size: cover;\n    position: relative;\n}\n\n.textblock {\n    font-size: 16px;\n    width: 100%;\n    position: absolute;\n    top: 15%;\n    background-color: #4b4b4b;\n    padding: 0 24px;\n    color: #e8e8e8;\n    box-shadow: 2px 2px 8px 2px #474747;\n    opacity: 0.9;\n    box-sizing: border-box;\n}\n\n.textblock a {\n    font-weight: 700;\n    color: #899efb;\n}\n\n.textblock a:visited {\n    color: #9672c4;\n}\n\n.textblock a:hover {\n    opacity: 0.7;\n}\n\n.contentblock {\n    padding: 12px 18px;\n    background-color: #fcfcfc;\n}\n\n.contentblock li {\n    font-size: 14px;\n}\n\n.contentblock p, .contentblock h1, .contentblock h2, .contentblock h3, .contentblockh4, .contentblock h5, .contentblock h6, .contentblock li {\n    color: #353535;\n}\n\n.jobblock {\n    width: 100%;\n    display: inline-block;\n    vertical-align: top;\n    box-sizing: border-box;\n    padding: 16px;\n}\n\n.skillblock {\n    width: 100%;\n    display: inline-block;\n    vertical-align: top;\n    box-sizing: border-box;\n    padding: 12px;\n}\n\n.schoolblock, .projectblock {\n    width: 100%;\n    display: inline-block;\n    vertical-align: top;\n    box-sizing: border-box;\n    padding: 12px 24px;\n    text-align: center;\n}\n\n.techicon {\n    width: 36px;\n    height: 36px;\n    margin: 8px;\n    opacity: 0.5;\n}\n\n.techicon:hover {\n    opacity: 1;\n}\n\n@media only screen and (min-width: 480px) {\n    .skillblock {width: 50%}\n    .textblock {max-width: 300px}\n    .textblockleft {left: 10%}\n    .textblockright {right: 10%}\n}\n\n@media only screen and (min-width: 768px) {\n    .backtext {display: block}\n    .backbracket {display: none}\n    .jobblock {width: 50%}\n    .skillblock {width: 25%}\n    .schoolblock {width: 50%}\n    .textblock {top: 25%}\n    .parallaxdiv {\n        background-attachment: fixed;\n        min-height: 640px;\n    }\n}\n\n@media only screen and (min-width: 1024px) {\n    .jobblock {width: 33%}\n    .projectblock {width: 50%}\n}\n"
 
 /***/ }),
 
@@ -358,7 +465,7 @@ module.exports = "* {\n    font-family: 'open sans', sans-serif;\n}\n\np, li {\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div @fade>\n\n    <!-- <div class=\"navbar\"> -->\n        <button class=\"backbutton\" [routerLink]=\"['/']\"><b><span class=\"backtext\">BACK</span><span class=\"backbracket\"><</span></b></button>\n        <!-- <h3 class=\"titletext\">Eytan Levy's time-traveling portfolio: Minimal</h3> -->\n    <!-- </div> -->\n\n    <div class=\"parallaxdiv image1\">\n        <div class=\"textblock textblockright\">\n            <h3 style=\"text-align: center;\">Intro:</h3>\n            <p>{{data.intro}}</p>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Professional Experience -</h2>\n        <div class=\"jobblock\" *ngFor=\"let job of data.experience\">\n            <div *ngIf=\"job.title != 'Miscellaneous'\">\n                <p style=\"text-align: center;\"><b>{{job.title}}</b> ({{job.dates}})</p>\n                <p>{{job.description}}</p>\n                <ul>\n                    <li *ngFor=\"let skill of job.skills\">{{skill}}</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"parallaxdiv image2\">\n        <div class=\"textblock textblockleft\">\n            <h3 style=\"text-align: center;\">Interests and extracurriculars:</h3>\n            <ul>\n                <li *ngFor=\"let interest of data.interests\">{{interest}}</li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Educational History -</h2>\n        <div class=\"schoolblock \"*ngFor=\"let school of data.education\">\n            <p><b>{{school.school}}</b> ({{school.dates}})</p>\n            <p>{{school.degree}}</p>\n        </div>\n    </div>\n\n    <div class=\"parallaxdiv image3\">\n        <div class=\"textblock textblockright\">\n            <h3 style=\"text-align: center;\">References</h3>\n            <p>(coming soon!)</p>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Coding Skills -</h2>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Front-end design:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.design\">{{skill}}</li>\n            </ul>\n        </div>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Languages:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.languages\">{{skill}}</li>\n            </ul>\n        </div>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Frameworks:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.frameworks\">{{skill}}</li>\n            </ul>\n        </div>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Databases:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.databases\">{{skill}}</li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"parallaxdiv image4\">\n        <div class=\"textblock textblockleft\" style=\"text-align: center;\">\n            <h3>Contact info:</h3>\n            <p *ngFor=\"let site of data.contact\"><a href=\"{{site.url}}\" target=\"_blank\">{{site.site}}</a></p>\n            <p><a href=\"mailto:{{data.email}}\">Email</a></p>\n        </div>\n    </div>\n\n</div>\n"
+module.exports = "<div @fade>\n\n    <!-- <div class=\"navbar\"> -->\n        <button class=\"backbutton\" [routerLink]=\"['/']\"><b><span class=\"backtext\">BACK</span><span class=\"backbracket\"><</span></b></button>\n        <!-- <h3 class=\"titletext\">Eytan Levy's time-traveling portfolio: Minimal</h3> -->\n    <!-- </div> -->\n\n    <div class=\"parallaxdiv image1\">\n        <div class=\"textblock textblockright\">\n            <h3 style=\"text-align: center;\">Intro:</h3>\n            <p>{{data.intro}}</p>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Professional Experience -</h2>\n        <div class=\"jobblock\" *ngFor=\"let job of data.experience\">\n            <div *ngIf=\"job.title != 'Miscellaneous'\">\n                <p style=\"text-align: center;\"><b>{{job.title}}</b> ({{job.dates}})</p>\n                <p>{{job.description}}</p>\n                <ul>\n                    <li *ngFor=\"let skill of job.skills\">{{skill}}</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"parallaxdiv image2\">\n        <div class=\"textblock textblockleft\">\n            <h3 style=\"text-align: center;\">Interests and extracurriculars:</h3>\n            <ul>\n                <li *ngFor=\"let interest of data.interests\">{{interest}}</li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Educational History -</h2>\n        <div class=\"schoolblock\" *ngFor=\"let school of data.education\">\n            <h4><b>{{school.school}}</b> ({{school.dates}})</h4>\n            <p>{{school.degree}}</p>\n        </div>\n    </div>\n\n    <div class=\"parallaxdiv image3\">\n        <div class=\"textblock textblockright\">\n            <h3 style=\"text-align: center;\">References</h3>\n            <p>(coming soon!)</p>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Coding Skills -</h2>\n        <div class=\"skillblock\">\n            <h4 style=\"text-align: center;\"><b>Front-end design:</b></h4>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.design\">{{skill}}</li>\n            </ul>\n        </div>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Languages:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.languages\">{{skill}}</li>\n            </ul>\n        </div>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Frameworks:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.frameworks\">{{skill}}</li>\n            </ul>\n        </div>\n        <div class=\"skillblock\">\n            <p style=\"text-align: center;\"><b>Databases:</b></p>\n            <ul>\n                <li *ngFor=\"let skill of data.skills.databases\">{{skill}}</li>\n            </ul>\n        </div>\n    </div>\n\n    <div class=\"parallaxdiv image4\">\n        <div class=\"textblock textblockleft\" style=\"text-align: center;\">\n            <h3>Contact info:</h3>\n            <p *ngFor=\"let site of data.contact\"><a href=\"{{site.url}}\" target=\"_blank\">{{site.site}}</a></p>\n            <p><a href=\"mailto:{{data.email}}\">Email</a></p>\n        </div>\n    </div>\n\n    <div class=\"contentblock\">\n        <h2 style=\"text-align: center;\">- Projects -</h2>\n        <div class=\"projectblock\" *ngFor=\"let project of data.projects\">\n            <h2>{{ project.name }}</h2>\n            <p>{{ project.description }}</p>\n            <video width=\"100%\" controls>\n                <source src=\"{{project.video}}\" type=\"video/mp4\">\n            </video>\n            <h4>Technologies used:</h4>\n            <img *ngFor=\"let technology of project.technologies\" class=\"techicon\" src=\"{{technology.url}}\" alt=\"{{technology.name}}\" title=\"{{technology.name}}\" />\n            <br />\n            <br />\n        </div>\n    </div>\n\n</div>\n"
 
 /***/ }),
 
