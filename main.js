@@ -126,7 +126,7 @@ var AppComponent = /** @class */ (function () {
                     title: 'Travel gear blogger',
                     organization: 'Self-employed',
                     dates: '2013 to present',
-                    description: 'Produced content for my own site, focusing on travel gear and related advice for budget backpackers, running it all myself and working with various brands on product development and prototype testing.',
+                    description: 'Built up a site read all over the world, focusing on travel gear and related advice for budget backpackers, running it all myself and working with various companies on product development and prototype testing.',
                     skills: [
                         'Wordpress',
                         'Keyword research',
@@ -163,7 +163,7 @@ var AppComponent = /** @class */ (function () {
                     title: 'Field Manager',
                     organization: 'Grassroots Campaigns',
                     dates: '2008 to 2010',
-                    description: 'Door to door and street fundraising for a variety of non-profit organizations, including the DNC, ACLU, LCV, Save the Children, ASPCA, and NRDC, spanning the topics of political campaigns, civil rights, environmental protection, third world development, and animal welfare. Managed and coached small teams of new and experienced staff, scouted and mapped fundraising locations, and worked through rain, shine, snow, hail, heat waves, and unpleasant canines.',
+                    description: 'Door-to-door and street fundraising for a variety of non-profit campaigns, including elections, civil rights, environmental activism, third world development, and animal welfare. Managed and coached small teams of new and experienced staff, scouted and mapped fundraising locations, and worked through rain, shine, snow, hail, heat waves, and unpleasant canines.',
                     skills: [
                         'Fundraising',
                         'Team management',
@@ -174,9 +174,9 @@ var AppComponent = /** @class */ (function () {
                     title: 'English Teacher',
                     organization: 'TOP English Camp',
                     dates: '2008',
-                    description: 'Conducted English language lessons and other activities with students of various ages, from elementary through high school students, in various cities throughout Taiwan.',
+                    description: 'Taught students of all ages, from elementary to high school, in various cities throughout Taiwan.',
                     skills: [
-                        'Keeping the attention of a classroom of 30 high school kids with too much energy to keep still'
+                        'Keeping the attention of a classroom of 30 high school kids with too much energy to hold still'
                     ]
                 },
                 {
@@ -222,13 +222,14 @@ var AppComponent = /** @class */ (function () {
             ],
             skills: [
                 {
-                    name: 'Design',
+                    name: 'Front-end design',
                     technologies: [
                         'HTML',
                         'CSS',
-                        'JQuery',
+                        'jQuery',
                         'Bootstrap',
                         'Materialize',
+                        'AJAX',
                     ]
                 },
                 {
@@ -237,6 +238,7 @@ var AppComponent = /** @class */ (function () {
                         'JavaScript',
                         'Python',
                         'C#',
+                        'TypeScript',
                     ]
                 },
                 {
@@ -246,16 +248,56 @@ var AppComponent = /** @class */ (function () {
                         'Django',
                         'Angular',
                         'ASP.NET Core',
+                        'Entity',
                     ]
                 },
                 {
-                    name: 'Databases',
+                    name: 'Server-side',
                     technologies: [
                         'SQL',
+                        'MySQL',
                         'SQLite',
                         'MongoDB',
+                        'Mongoose',
+                        'Node.js',
+                        'Express',
                     ]
-                }
+                },
+                {
+                    name: 'Concepts',
+                    technologies: [
+                        'OOP',
+                        'MVC',
+                        'ORM',
+                        'TDD',
+                        'RESTful routing',
+                        'Strong typing',
+                        'Responsive web design',
+                    ]
+                },
+                {
+                    name: 'Data structures',
+                    technologies: [
+                        'Linked lists',
+                        'Stacks',
+                        'Queues',
+                        'Binary search trees',
+                        'Heaps',
+                        'Tries',
+                        'Graphs',
+                        'Sorts',
+                    ]
+                },
+                {
+                    name: 'Others',
+                    technologies: [
+                        'Git',
+                        'Github',
+                        'AWS',
+                        'SEO',
+                        'Affiliate Marketing',
+                    ]
+                },
             ],
             projects: [
                 {
@@ -376,6 +418,7 @@ var AppComponent = /** @class */ (function () {
                 'Martial arts',
                 'High school debate team',
                 'Outward Bound',
+                '#1 on reddit!',
             ],
             contact: [
                 {
@@ -547,7 +590,7 @@ var MinimalComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "* {\n    margin: 0px;\n    font-family: courier;\n    font-weight: 700;\n    color: green;\n}\n\n.backdrop {\n    background-color: black;\n    width: 100%;\n    min-height: 100%;\n    padding: 12px;\n    box-sizing: border-box;\n}\n\n.menu {\n    border: 6px solid green;\n    border-style: double;\n    margin: 12px auto;\n    max-width: 600px;\n    padding: 12px;\n    box-sizing: border-box;\n}\n\n.menucommands {\n    min-width: 140px;\n    width: 50%;\n}\n\n.antiquewhite {\n    color: antiquewhite;\n}\n\n.darkcyan {\n    color: darkcyan;\n}\n\n.tan {\n    color: tan;\n}\n\n.lightgreen {\n    color: lightgreen;\n}\n\n.subtitle {\n    text-align: center;\n    margin: 12px;\n}\n\n.titlediv {\n    border: 6px solid darkcyan;\n    border-style: double;\n}\n\np {\n    margin: 4px;\n}\n\n#cursor {\n    margin: 4px 0 0 4px;\n    width: 14px;\n    height: 18px;\n    background-color: green;\n    display: inline-block;\n    vertical-align: top;\n}\n\n#loadingchamber {\n    width: 200px;\n    border: 2px solid green;\n    padding: 2px;\n    box-sizing: border-box;\n}\n\n#loadingbar {\n    height: 20px;\n    width: 1%;\n    background-color: green;\n}\n\n#content {\n    display: none;\n}\n\n.inline-block {\n    display: inline-block;\n    vertical-align: top;\n}\n\n.backdrop {\n    background-color: black;\n}\n\n.subtitle {\n    text-align: center;\n}\n\n.lightgreen {\n    color: lightgreen;\n}\n\n.darkcyan {\n    color: darkcyan;\n}\n\n.tan {\n    color: tan;\n}\n\n.indent {\n    margin-left: 10px;\n}\n\n.subsection {\n    display: none;\n}\n\na {\n    text-decoration: none;\n}\n"
+module.exports = "* {\n    margin: 0px;\n    font-family: courier;\n    font-weight: 700;\n    color: green;\n}\n\n.backdrop {\n    background-color: black;\n    width: 100%;\n    min-height: 100%;\n    padding: 12px;\n    box-sizing: border-box;\n}\n\n.menu {\n    border: 6px solid green;\n    border-style: double;\n    margin: 12px auto;\n    max-width: 600px;\n    padding: 12px;\n    box-sizing: border-box;\n}\n\n.menucommands {\n    min-width: 140px;\n    width: 50%;\n}\n\n.antiquewhite {\n    color: antiquewhite;\n}\n\n.darkcyan {\n    color: darkcyan;\n}\n\n.tan {\n    color: tan;\n}\n\n.lightgreen {\n    color: lightgreen;\n}\n\n.subtitle {\n    text-align: center;\n    margin: 12px;\n}\n\n.titlediv {\n    border: 6px solid darkcyan;\n    border-style: double;\n}\n\np {\n    margin: 4px;\n}\n\n#cursor {\n    margin: 4px 0 0 4px;\n    width: 14px;\n    height: 18px;\n    background-color: green;\n    display: inline-block;\n    vertical-align: top;\n}\n\n#loadingchamber {\n    width: 200px;\n    border: 2px solid green;\n    padding: 2px;\n    box-sizing: border-box;\n}\n\n#loadingbar {\n    height: 20px;\n    width: 1%;\n    background-color: green;\n}\n\n#content {\n    display: none;\n}\n\n.inline-block {\n    display: inline-block;\n    vertical-align: top;\n}\n\n.backdrop {\n    background-color: black;\n}\n\n.subtitle {\n    text-align: center;\n}\n\n.lightgreen {\n    color: lightgreen;\n}\n\n.darkcyan {\n    color: darkcyan;\n}\n\n.tan {\n    color: tan;\n}\n\n.indent {\n    margin-left: 10px;\n}\n\n.subsection {\n    display: none;\n}\n\na {\n    text-decoration: none;\n}\n\n.cursorline {\n    display: none;\n}\n\n@media only screen and (min-width: 1024px) {\n    .cursorline {display: inline-block}\n}\n"
 
 /***/ }),
 
@@ -558,7 +601,7 @@ module.exports = "* {\n    margin: 0px;\n    font-family: courier;\n    font-wei
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" @fade>\n\n    <div id=\"loadingbay\">\n        <p class=\"lightgreen\">Loading...</p>\n        <div id=\"loadingchamber\">\n            <div id=\"loadingbar\">\n            </div>\n        </div>\n    </div>\n\n    <div id=\"content\">\n\n        <div class=\"menu\">\n            <div class=\"titlediv\">\n                <p class=\"subtitle darkcyan\">**** <span class=\"lightgreen\">Eytan Levy's Time-Traveling Portfolio</span> ****</p>\n            </div>\n            <p class=\"subtitle\"><span class=\"tan\">Menu commands:</span> Press <span class=\"antiquewhite\">[<span class=\"darkcyan\">KEY</span>]</span></p>\n            <div class=\"inline-block menucommands\">\n                <p (click)=\"introDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">I</span>]</span>ntro</p>\n                <p (click)=\"experienceDisplay()\">E<span class=\"antiquewhite\">[<span class=\"darkcyan\">X</span>]</span>perience</p>\n                <p (click)=\"educationDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">E</span>]</span>ducation</p>\n                <p (click)=\"skillsDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">S</span>]</span>kills</p>\n            </div>\n            <div class=\"inline-block menucommands\">\n                <p (click)=\"interestsDisplay()\">I<span class=\"antiquewhite\">[<span class=\"darkcyan\">N</span>]</span>terests</p>\n                <p (click)=\"contactDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">C</span>]</span>ontact</p>\n                <p (click)=\"projectDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">P</span>]</span>rojects</p>\n            </div>\n            <p class=\"subtitle\" (click)=\"escapeBack()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">Esc</span>]</span>ape back to homepage</p>\n        </div>\n        <br />\n\n\n        <div class=\"subsection\" id=\"intro\">\n            <p class=\"subtitle darkcyan\">*******************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">INTRO</span> ******</p>\n            <p class=\"subtitle darkcyan\">*******************</p>\n            <br />\n            <p>{{data.intro}}</p>\n        </div>\n\n\n        <div class=\"subsection\" id=\"experience\">\n            <p class=\"subtitle darkcyan\">************************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">EXPERIENCE</span> ******</p>\n            <p class=\"subtitle darkcyan\">************************</p>\n            <br />\n            <div *ngFor=\"let job of data.experience\">\n                <p><span class=\"tan\">{{job.title}}</span><span *ngIf=\"job.organization\"> <span class=\"darkcyan\"> ({{job.organization}})</span> - {{job.dates}}</span></p>\n                <br />\n                <p>{{job.description}}</p>\n                <br />\n                <p *ngIf=\"job.skills\" class=\"darkcyan\">Skills used:</p>\n                <p *ngFor=\"let skill of job.skills\" class=\"indent\">- {{skill}}</p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n\n        <div class=\"subsection\" id=\"education\">\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">EDUCATION</span> ******</p>\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <br />\n            <div *ngFor='let school of data.education'>\n                <p><span class=\"tan\">{{school.school}}</span> - {{school.dates}}</p>\n                <p>{{school.degree}}</p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n\n        <div class=\"subsection\" id=\"skills\">\n            <p class=\"subtitle darkcyan\">********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">SKILLS</span> ******</p>\n            <p class=\"subtitle darkcyan\">********************</p>\n            <br />\n            <div *ngFor=\"let skill of data.skills\">\n                <p class=\"tan\">{{skill.name}}:</p>\n                <br />\n                <p *ngFor=\"let technology of skill.technologies\" class=\"indent\">- {{technology}}</p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n\n        <div class=\"subsection\" id=\"interests\">\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">INTERESTS</span> ******</p>\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <br />\n            <p *ngFor=\"let interest of data.interests\">- {{interest}}</p>\n        </div>\n\n\n        <div class=\"subsection\" id=\"contact\">\n            <p class=\"subtitle darkcyan\">**************************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">CONTACT INFO</span> ******</p>\n            <p class=\"subtitle darkcyan\">**************************</p>\n            <br />\n            <div *ngFor=\"let contact of data.contact\">\n                <p><span class=\"tan\">{{contact.site}}: </span><a href=\"{{contact.url}}\" target=\"_blank\">{{contact.url}}</a></p>\n            </div>\n            <p><span class=\"tan\">Email: </span><a href=\"mailto:{{data.email}}\">{{data.email}}</a></p>\n        </div>\n\n        <div class=\"subsection\" id=\"projects\">\n            <p class=\"subtitle darkcyan\">**********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">PROJECTS</span> ******</p>\n            <p class=\"subtitle darkcyan\">**********************</p>\n            <br />\n            <div *ngFor=\"let project of data.projects\">\n                <p class=\"tan\">{{project.name}}:</p>\n                <br />\n                <p>{{project.description}}</p>\n                <br />\n                <p class=\"darkcyan\">Technologies used:</p>\n                <p *ngFor=\"let technology of project.technologies\" class=\"indent\">- {{technology.name}}</p>\n                <br />\n                <p *ngIf=\"project.url != ''\"><span class=\"tan\">Site URL: </span><a href=\"{{project.url}}\" target=\"_blank\">{{project.url}}</a></p>\n                <p><span class=\"tan\">Repository: </span><a href=\"{{project.repository}}\" target=\"_blank\">{{project.repository}}</a></p>\n                <p><span class=\"tan\">Video Demo: </span><a href=\"{{project.video}}\" target=\"_blank\">{{project.video.slice(2,project.video.length)}}</a></p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n        <br />\n        <p class=\"darkcyan inline-block\">COMMAND <span class=\"antiquewhite\"> > </span></p><div id=\"cursor\"></div>\n\n    </div>\n\n</div>\n"
+module.exports = "<div class=\"backdrop\" @fade>\n\n    <div id=\"loadingbay\">\n        <p class=\"lightgreen\">Loading...</p>\n        <div id=\"loadingchamber\">\n            <div id=\"loadingbar\">\n            </div>\n        </div>\n    </div>\n\n    <div id=\"content\">\n\n        <div class=\"menu\">\n            <div class=\"titlediv\">\n                <p class=\"subtitle darkcyan\">**** <span class=\"lightgreen\">Eytan Levy's Time-Traveling Portfolio</span> ****</p>\n            </div>\n            <p class=\"subtitle\"><span class=\"tan\">Menu commands:</span> Press <span class=\"antiquewhite\">[<span class=\"darkcyan\">KEY</span>]</span></p>\n            <div class=\"inline-block menucommands\">\n                <p (click)=\"introDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">I</span>]</span>ntro</p>\n                <p (click)=\"experienceDisplay()\">E<span class=\"antiquewhite\">[<span class=\"darkcyan\">X</span>]</span>perience</p>\n                <p (click)=\"educationDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">E</span>]</span>ducation</p>\n                <p (click)=\"skillsDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">S</span>]</span>kills</p>\n            </div>\n            <div class=\"inline-block menucommands\">\n                <p (click)=\"interestsDisplay()\">I<span class=\"antiquewhite\">[<span class=\"darkcyan\">N</span>]</span>terests</p>\n                <p (click)=\"contactDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">C</span>]</span>ontact</p>\n                <p (click)=\"projectDisplay()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">P</span>]</span>rojects</p>\n            </div>\n            <p class=\"subtitle\" (click)=\"escapeBack()\"><span class=\"antiquewhite\">[<span class=\"darkcyan\">Esc</span>]</span>ape back to homepage</p>\n        </div>\n        <br />\n\n\n        <div class=\"subsection\" id=\"intro\">\n            <p class=\"subtitle darkcyan\">*******************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">INTRO</span> ******</p>\n            <p class=\"subtitle darkcyan\">*******************</p>\n            <br />\n            <p>{{data.intro}}</p>\n        </div>\n\n\n        <div class=\"subsection\" id=\"experience\">\n            <p class=\"subtitle darkcyan\">************************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">EXPERIENCE</span> ******</p>\n            <p class=\"subtitle darkcyan\">************************</p>\n            <br />\n            <div *ngFor=\"let job of data.experience\">\n                <p><span class=\"tan\">{{job.title}}</span><span *ngIf=\"job.organization\"> <span class=\"darkcyan\"> ({{job.organization}})</span> - {{job.dates}}</span></p>\n                <br />\n                <p>{{job.description}}</p>\n                <br />\n                <p *ngIf=\"job.skills\" class=\"darkcyan\">Skills used:</p>\n                <p *ngFor=\"let skill of job.skills\" class=\"indent\">- {{skill}}</p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n\n        <div class=\"subsection\" id=\"education\">\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">EDUCATION</span> ******</p>\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <br />\n            <div *ngFor='let school of data.education'>\n                <p><span class=\"tan\">{{school.school}}</span> - {{school.dates}}</p>\n                <p>{{school.degree}}</p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n\n        <div class=\"subsection\" id=\"skills\">\n            <p class=\"subtitle darkcyan\">********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">SKILLS</span> ******</p>\n            <p class=\"subtitle darkcyan\">********************</p>\n            <br />\n            <div *ngFor=\"let skill of data.skills\">\n                <p class=\"tan\">{{skill.name}}:</p>\n                <br />\n                <p *ngFor=\"let technology of skill.technologies\" class=\"indent\">- {{technology}}</p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n\n        <div class=\"subsection\" id=\"interests\">\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">INTERESTS</span> ******</p>\n            <p class=\"subtitle darkcyan\">***********************</p>\n            <br />\n            <p *ngFor=\"let interest of data.interests\">- {{interest}}</p>\n        </div>\n\n\n        <div class=\"subsection\" id=\"contact\">\n            <p class=\"subtitle darkcyan\">**************************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">CONTACT INFO</span> ******</p>\n            <p class=\"subtitle darkcyan\">**************************</p>\n            <br />\n            <div *ngFor=\"let contact of data.contact\">\n                <p><span class=\"tan\">{{contact.site}}: </span><a href=\"{{contact.url}}\" target=\"_blank\">{{contact.url}}</a></p>\n            </div>\n            <p><span class=\"tan\">Email: </span><a href=\"mailto:{{data.email}}\">{{data.email}}</a></p>\n        </div>\n\n        <div class=\"subsection\" id=\"projects\">\n            <p class=\"subtitle darkcyan\">**********************</p>\n            <p class=\"subtitle darkcyan\">****** <span class=\"lightgreen\">PROJECTS</span> ******</p>\n            <p class=\"subtitle darkcyan\">**********************</p>\n            <br />\n            <div *ngFor=\"let project of data.projects\">\n                <p class=\"tan\">{{project.name}}:</p>\n                <br />\n                <p>{{project.description}}</p>\n                <br />\n                <p class=\"darkcyan\">Technologies used:</p>\n                <p *ngFor=\"let technology of project.technologies\" class=\"indent\">- {{technology.name}}</p>\n                <br />\n                <p *ngIf=\"project.url != ''\"><span class=\"tan\">Site URL: </span><a href=\"{{project.url}}\" target=\"_blank\">{{project.url}}</a></p>\n                <p><span class=\"tan\">Repository: </span><a href=\"{{project.repository}}\" target=\"_blank\">{{project.repository}}</a></p>\n                <p><span class=\"tan\">Video Demo: </span><a href=\"{{project.video}}\" target=\"_blank\">{{project.video.slice(2,project.video.length)}}</a></p>\n                <br />\n                <p class=\"darkcyan\">************************************</p>\n                <br />\n            </div>\n        </div>\n\n        <br />\n        <span class=\"cursorline\"><p class=\"darkcyan inline-block\">COMMAND <span class=\"antiquewhite\"> > </span></p><div id=\"cursor\"></div></span>\n\n    </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -733,7 +776,7 @@ var TerminalComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "* {\n    margin: 0px;\n}\n\n.backdrop {\n    background-image: url('corfu-beach.jpg');;\n    width: 100%;\n    height: 100%;\n    background-size: cover;\n    background-repeat: no-repeat;\n    text-align: center;\n    padding-top: 12%;\n    box-sizing: border-box;\n}\n\n.titleblock {\n    padding: 24px;\n    margin: 0 auto;\n    background-color: hsla(0, 0%, 25%, 0.7);\n    width: 50%;\n    color: #e8e8e8;\n    box-shadow: 0 0 10px 8px hsla(0, 0%, 25%, 0.7);\n}\n\np, h1,h2,h3,h4,h5,h6 {\n    font-family: 'open sans', sans-serif;\n    text-align: center;\n}\n\n.buttondiv {\n    text-align: center;\n}\n\nbutton {\n    cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n\n#terminal {\n    background-color: #d1cbbc;\n    border: 6px solid #a8a497;\n    border-radius: 6px;\n    border-style: outset;\n    font-family: courier;\n    font-size: 18px;\n    padding: 10px;\n    margin: 12px;\n}\n\n#minimal {\n    background-color: #313131;\n    border: none;\n    color: #e8e8e8;\n    font-family: 'open sans';\n    padding: 14px;\n    margin: 12px;\n    box-shadow: 1px 1px 12px 2px #313131;\n    opacity: 0.7;\n    font-size: 16px;\n    font-weight: 700;\n}\n\n#minimal:hover {\n    opacity: 0.6;\n}\n"
+module.exports = "* {\n    margin: 0px;\n}\n\n.backdrop {\n    background-image: url('corfu-beach.jpg');;\n    width: 100%;\n    height: 100%;\n    background-size: cover;\n    background-repeat: no-repeat;\n    text-align: center;\n    padding-top: 12%;\n    box-sizing: border-box;\n}\n\n.titleblock {\n    padding: 24px;\n    margin: 0 auto;\n    background-color: hsla(0, 0%, 25%, 0.7);\n    width: 50%;\n    color: #e8e8e8;\n    box-shadow: 0 0 8px 8px hsla(0, 0%, 25%, 0.7);\n}\n\np, h1,h2,h3,h4,h5,h6 {\n    font-family: 'open sans', sans-serif;\n    text-align: center;\n}\n\n.buttondiv {\n    text-align: center;\n}\n\nbutton {\n    cursor: pointer;\n}\n\nbutton:hover {\n    opacity: 0.8;\n}\n\n#terminal {\n    background-color: #d1cbbc;\n    border: 6px solid #a8a497;\n    border-radius: 6px;\n    border-style: outset;\n    font-family: courier;\n    font-size: 18px;\n    padding: 10px;\n    margin: 12px;\n}\n\n#minimal {\n    background-color: #313131;\n    border: none;\n    color: #e8e8e8;\n    font-family: 'open sans';\n    padding: 14px;\n    margin: 12px;\n    box-shadow: 1px 1px 12px 2px #313131;\n    opacity: 0.7;\n    font-size: 16px;\n    font-weight: 700;\n}\n\n#minimal:hover {\n    opacity: 0.6;\n}\n"
 
 /***/ }),
 
