@@ -261,6 +261,7 @@ var AppComponent = /** @class */ (function () {
                         'Mongoose',
                         'Node.js',
                         'Express',
+                        'AWS',
                     ]
                 },
                 {
@@ -293,9 +294,15 @@ var AppComponent = /** @class */ (function () {
                     technologies: [
                         'Git',
                         'Github',
-                        'AWS',
                         'SEO',
                         'Affiliate Marketing',
+                    ]
+                },
+                {
+                    name: 'In progress',
+                    technologies: [
+                        'React',
+                        'Vue',
                     ]
                 },
             ],
