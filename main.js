@@ -348,37 +348,39 @@ var AppComponent = /** @class */ (function () {
                         },
                     ]
                 },
-                // {
-                //     name: 'Live Portfolio',
-                //     description: 'An Angular/Node project with multiple versions at the front end, from the olden days of terminal commands to the minimalism of modern-day web design.',
-                //     video: '',
-                //     technologies: [
-                //         {
-                //             name: 'HTML5',
-                //             url: '../assets/images/icons/html5.png'
-                //         },
-                //         {
-                //             name: 'CSS3',
-                //             url: '../assets/images/icons/css3.png'
-                //         },
-                //         {
-                //             name: 'JavaScript',
-                //             url: '../assets/images/icons/javascript.png'
-                //         },
-                //         {
-                //             name: 'Angular',
-                //             url: '../assets/images/icons/angular.png'
-                //         },
-                //         {
-                //             name: 'Node',
-                //             url: '../assets/images/icons/node.png'
-                //         },
-                //         {
-                //             name: 'Express',
-                //             url: '../assets/images/icons/express.png'
-                //         },
-                //     ]
-                // },
+                {
+                    name: 'Live Portfolio',
+                    description: 'An Angular/Node project in multiple versions, from the olden days of terminal commands to the minimalism of modern-day web design.',
+                    video: '../assets/videos/LivePortfolio.mp4',
+                    repository: 'https://github.com/eslevy17/Portfolio',
+                    url: '',
+                    technologies: [
+                        {
+                            name: 'HTML5',
+                            url: '../assets/images/icons/html5.png'
+                        },
+                        {
+                            name: 'CSS3',
+                            url: '../assets/images/icons/css3.png'
+                        },
+                        {
+                            name: 'JavaScript',
+                            url: '../assets/images/icons/javascript.png'
+                        },
+                        {
+                            name: 'Angular',
+                            url: '../assets/images/icons/angular.png'
+                        },
+                        {
+                            name: 'Node',
+                            url: '../assets/images/icons/node.png'
+                        },
+                        {
+                            name: 'Express',
+                            url: '../assets/images/icons/express.png'
+                        },
+                    ]
+                },
                 {
                     name: 'CoffeeGlyph',
                     description: 'An animated infographic of different coffee recipes, written in C# and ASP.NET Core.',
