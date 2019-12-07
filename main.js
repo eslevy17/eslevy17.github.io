@@ -239,6 +239,7 @@ var AppComponent = /** @class */ (function () {
                         'Python',
                         'C#',
                         'TypeScript',
+                        'Perl'
                     ]
                 },
                 {
@@ -249,7 +250,7 @@ var AppComponent = /** @class */ (function () {
                         'Angular',
                         'ASP.NET Core',
                         'Entity',
-                        'React'
+                        'React/Redux'
                     ]
                 },
                 {
@@ -258,12 +259,13 @@ var AppComponent = /** @class */ (function () {
                         'SQL',
                         'MySQL',
                         'SQLite',
+                        'PostgreSQL',
+                        'Oracle SQL',
                         'MongoDB',
                         'Mongoose',
                         'Node.js',
                         'Express',
-                        'AWS',
-                        'PostgreSQL'
+                        'AWS'
                     ]
                 },
                 {
@@ -294,8 +296,11 @@ var AppComponent = /** @class */ (function () {
                 {
                     name: 'Others',
                     technologies: [
+                        'Linux',
                         'Git',
                         'Github',
+                        'Cypress',
+                        'Jira',
                         'SEO',
                         'Affiliate Marketing',
                     ]
@@ -303,8 +308,7 @@ var AppComponent = /** @class */ (function () {
                 {
                     name: 'In progress',
                     technologies: [
-                        'Vue',
-                        'Redux'
+                        'Vue'
                     ]
                 },
             ],
